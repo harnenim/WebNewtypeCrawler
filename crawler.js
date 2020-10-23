@@ -4,7 +4,7 @@ var http = require("https");
 const baseUrl = "comic.webnewtype.com";
 const dirs = {
   geass: {
-    "04": [
+    "04": [ // https://comic.webnewtype.com/contents/geass_f/4/json/
       "/rsz/C1/img/comic/geass_f/04-01-aaa99f5f-febe-4c8e-a59f-ff115a579a41.jpg/h1200q75nc/",
       "/rsz/C1/img/comic/geass_f/04-02-604bbbf0-6784-409e-a94f-57243082778c.jpg/h1200q75nc/",
       "/rsz/C1/img/comic/geass_f/04-03-adcb875c-4af4-47d6-ac30-8f2f0c3760a4.jpg/h1200q75nc/",
@@ -43,7 +43,7 @@ const dirs = {
     ],
   },
   soraao: {
-    "12": [
+    "12": [ // https://comic.webnewtype.com/contents/soraao/12/json/
       "/rsz/C1/img/comic/soraao/soraao_12_01-b8f94d87-9c9c-41b9-b2e0-2a36893f48ad.jpg/h1200q75nc/",
       "/rsz/C1/img/comic/soraao/soraao_12_02-3dc87578-0c62-4a7f-b4fc-786d3cada22f.jpg/h1200q75nc/",
       "/rsz/C1/img/comic/soraao/soraao_12_03-1a3230df-f2b0-45b2-bad1-cda2daf3b910.jpg/h1200q75nc/",
